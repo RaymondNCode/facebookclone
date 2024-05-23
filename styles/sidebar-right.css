@@ -1,0 +1,150 @@
+.sidebar-right {
+  position: fixed;
+  top: 56px;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(240, 242, 245);;
+  width: 320px;
+  overflow: scroll;
+}
+
+.contact-part .row-container img,
+.group-part .row-container img {
+  margin-right: 8px;
+}
+
+.title-icon-row .grey-icon{
+  border-radius: 15px;
+
+}
+
+.title-icon-row .grey-icon:hover {
+  background-color: rgb(215, 215, 215);
+  cursor: pointer;
+}
+
+.ads-part ,
+.contact-part {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(181, 181, 181);
+  margin-bottom: 15px;
+}
+
+.part-title {
+  font-weight: 600;
+  color: rgb(101, 103,107);
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  margin-left: 8px;
+}
+
+.page-profile-title,
+.contact-title {
+  margin-top: auto;
+}
+
+.ads-container {
+  display: flex;
+  padding:8px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  
+}
+
+.ads-container:hover {
+  background-color: rgb(215, 215, 215);
+  cursor: pointer;
+}
+
+.ads-img-big {
+  width: 131.2px;
+  height: 131.2px;
+  border-radius: 15px;
+}
+
+.ads-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.ads-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+.ads-link {
+  color: grey;
+  font-size: 13px;
+
+}
+
+.page-profile-part {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(181, 181, 181);
+  margin-bottom: 15px;
+}
+.title-icon-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.grey-icon {
+  color: grey;
+}
+
+.row-container{
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  border-radius: 10px;
+}
+
+.row-container:hover {
+  background-color: rgb(215, 215, 215);
+  cursor: pointer;
+}
+
+.round-img {
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+}
+
+.row-container-text {
+  margin-left: 10px;
+  font-weight: bold;
+
+}
+
+.page-text {
+color: rgb(70, 70, 70);
+font-weight: bold;
+font-size: 17px;
+}
+
+.sub-row-container {
+  padding-left: 28px;
+}
+
+.add-icon {
+  margin-right: 8px;
+  margin-left: 3px;
+  background-color: rgb(228,230,235);
+  border-radius: 15px;
+}
+
+

@@ -1,0 +1,146 @@
+.comment-pop-up {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(230, 230, 230, 0.8);
+  z-index: 100;
+}
+
+.comment-container {
+  height: 655px;
+  width: 700px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.comment-container .row1-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+  align-items: center;
+}
+
+.comment-container .close-button {
+  background-color: rgb(240, 242, 245);
+  border-radius: 50%;
+  padding: 5px;
+}
+.comment-container .close-button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+
+}
+.comment-container .row2-container {
+  overflow: scroll;
+  height: 475px;
+}
+
+.comment-pop-up .post-img {
+  height: 250px;
+  object-fit: contain;
+}
+
+.comment-pop-up .row2-2-container {
+  align-items: center;
+  padding-left: 15px;
+}
+
+.comment-pop-up .row2-2-container .row2-2-1-container {
+  display: flex;
+  align-items: center;
+  
+}
+
+.comment-pop-up .row2-2-container .row2-2-1-container span:hover {
+  cursor: pointer;
+}
+
+.comment-pop-up .commenter-container {
+ display: flex;
+ margin-top: 5px;
+}
+
+.comment-pop-up .commenter-container img:hover{
+  cursor: pointer;
+
+}
+.commenter-column { 
+  margin-left: 5px;
+}
+.name-comment {
+  background-color: rgb(240, 242, 245);
+  border-radius: 15px;
+  padding: 10px 10px;
+}
+.commenter-name {
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.commenter-content {
+  font-size: 14px;
+}
+.time-like-reply {
+  margin-left: 10px;
+}
+
+.time-like-reply span {
+  font-weight: bold;
+  font-size: 11px;
+  color: grey;
+  margin: auto 5px;
+
+}
+
+.time-like-reply span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.comment-pop-up .row3-container {
+  display: flex;
+  padding: 15px 15px;
+  border-top: 1px solid black;
+}
+
+.comment-pop-up .row3-container img:hover {
+  cursor: pointer;
+}
+
+.comment-pop-up .row3-container .column2 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin-left: 10px;
+  height: 80px;
+  padding: 5px 10px;
+  background-color: rgb(240, 242, 245);
+}
+.comment-pop-up .row3-container .column2 input {
+  background-color: rgb(240, 242, 245);
+  border: none;
+}
+
+.comment-pop-up .row3-container .column2 input:focus {
+  outline: none;
+}
+.comment-pop-up .row3-container .column2 .column2-row2-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment-pop-up .row3-container .column2 .column2-row2-container span:hover {
+  cursor: pointer;
+}
+
+.comment-pop-up .row3-container .column2 .column2-row2-container .send-icon:hover{
+  cursor:not-allowed;
+}
+

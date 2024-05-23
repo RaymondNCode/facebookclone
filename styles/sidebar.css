@@ -1,0 +1,85 @@
+.sidebar-left {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 75px;
+  width: 355px;
+  overflow: scroll;
+  background-color: rgb(240, 242, 245); 
+}
+
+.sidebar-left:hover{
+}
+
+.sidebar-1-container{
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(181, 181, 181);
+  margin-bottom: 15px;
+}
+.row-container{
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  border-radius: 10px;
+}
+
+.row-container:hover {
+  background-color: rgb(215, 215, 215);
+  cursor: pointer;
+}
+
+.row-container-img {
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+}
+
+.row-container-text{
+  margin-left: 10px;
+  font-weight: bold;
+
+}
+.row-container-icon {
+  width: 28px;
+  height: 28px;
+  
+}
+
+.expand_more-icon {
+  border: 1px solid wheat;
+}
+.row-bottom-img {
+  border-radius: 15px;
+}
+.sidebar-2-container img {
+  width: 28px;
+  height: 28px;
+  border-radius: 5px;
+}
+
+.shortcut-text {
+  margin-left: 15px ;
+  color: rgb(70, 70, 70);
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+.non-bold-text {
+  font-weight: normal;
+
+}
+.privacy-text {
+  margin-top: 15px;
+  margin-left: 15px ;
+  color: rgb(135, 135, 135);
+  font-family: Arial;
+  font-size: 12.5px;
+}
+
+.privacy-text span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

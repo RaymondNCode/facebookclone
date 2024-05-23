@@ -1,0 +1,187 @@
+.pop-up {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(230, 230, 230, 0.8);
+  z-index: 100;
+}
+
+.pop-up-container {
+  height: 420px;
+  width: 500px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.pop-up-container .row1-container {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+}
+
+.pop-up-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.pop-up-container .row2-container {
+    /*To specify img we wanted to style, since row2-container 
+  is a general used class name in this case, add '.pop-up-container'
+   let CSS know we specify in this  */
+  margin: 0;
+  padding: 15px;
+}
+
+.pop-up-container .row2-container .user-info {
+  display:flex;
+  align-items: center;
+}
+
+.pop-up-container .row2-container .user-info img { 
+  /*To specify img we wanted to style, since row2-container 
+  is a general used class name in this case, add '.pop-up-container'
+   before '.row2-container' let CSS know we specify in this  */
+  border-radius: 50%;
+  cursor: pointer;
+  height: 45px;
+  width: 45px;
+  margin-right: 10px;
+}
+
+.pop-up .user-info {
+  display:flex;
+}
+
+.pop-up .user-info .material-symbols-outlined{
+  /*we specify on material-symbols-outlined in 'user-info' && 'pop-up' do avoid confusion
+  since in there is user-info class name in main content*/
+  font-variation-settings: 
+  'FILL' 1;
+  font-size: 16px;
+}
+
+.pop-up .user-info .text {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.pop-up .column2-row {
+  display: flex;
+  align-items: center;
+  background-color: rgb(240, 242, 245);
+  border-radius: 6px;
+  padding: 4px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.popup-input-container {
+  height: 120px;
+}
+
+.popup-input {
+  width:100%;
+  padding-top: 20px;
+  font-size: 22px;
+  border: none;
+}
+.popup-input::placeholder {
+  font-size: 22px;
+}
+
+.popup-input:focus {
+  outline:none;
+}
+
+.pop-up .row2-3-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pop-up .row2-3-container img{
+  width: 38px;
+  height: 38px;
+}
+
+.pop-up .row2-3-container img,
+.pop-up .row2-3-container span {
+  cursor: pointer;
+}
+.pop-up .row2-3-container .material-symbols-outlined:hover {
+  color: darkgray;
+}
+
+.pop-up .row2-4-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px auto;
+  width: 100% -16px;
+  height: 40px;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  border-radius: 5px;
+}
+.pop-up .row2-4-column {
+  cursor: pointer;
+}
+
+.pop-up .row2-4-container .row2-4-column2 .material-symbols-outlined,
+.pop-up .row1-container .material-symbols-outlined {
+  font-size: 28px;
+  border-radius: 50%;
+  padding: 2px;
+  cursor: pointer;
+}
+.pop-up .row2-4-container .row2-4-column2 .material-symbols-outlined:hover,
+.pop-up .row1-container .material-symbols-outlined:hover {
+  background-color: rgb(240, 242, 245);
+}
+
+.green-icon {
+  font-variation-settings: 
+  'FILL' 1;
+  color: rgb(75, 219, 75);
+}
+
+.blue-icon {
+  font-variation-settings: 
+  'FILL' 1;
+  color: rgb(71, 71, 173);
+}
+
+.orange-icon {
+  color: orange;
+}
+
+.red-icon {
+  font-variation-settings: 
+  'FILL' 1;
+  color: rgb(255, 76, 76);
+}
+
+.lightgreen-icon {
+  font-variation-settings: 
+  'FILL' 1;
+  color: rgb(15, 199, 224);
+}
+
+.pop-up .row2-5-container {
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 5px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 242, 245);
+  color: darkgray;
+  cursor: not-allowed;
+}
+
+

@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  font-family: Arial;
+  background-color: rgb(240, 242, 245);
+  display: flex;
+}
+
+@media screen and (max-width: 1211px) {
+  .sidebar-left,
+  .sidebar-right {
+    display: none;
+  }
+
+  body .main-content{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  body {
+    display:flex;
+    justify-content: center;
+  }
+  .search-input {
+    display: none;;
+    
+  }
+  .header .left-section .search-bar {
+    border-radius: 17.5px;
+    padding: 0px;
+  }
+}
+
+@media screen and (min-width: 1211px) and (max-width: 1475px) {
+  .sidebar-left {
+    display: none;
+  }
+
+  body {
+    margin-right: 25px;
+    justify-content: center;
+  }
+
+  body .main-content {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+}
